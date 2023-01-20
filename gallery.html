@@ -1,0 +1,122 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<title>My Gallery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+
+
+ }
+.BIODATA {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="amani.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="biodata.html" class="w3-button w3-block w3-black">BIODATA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="experience.html" class="w3-button w3-block w3-black">EXPERIENCE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="education.html" class="w3-button w3-block w3-black">EDUCATION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="family.html" class="w3-button w3-block w3-black">FAMILY</a>
+    </div>
+      <div class="w3-col s3">
+      <a href="gallery.html" class="w3-button w3-block w3-black">GALLERY</a>
+    </div>
+      <div class="w3-col s3">
+      <a href="references.html" class="w3-button w3-block w3-black">REFERENCES</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- Gallery Container -->
+<div class="w3-container" id="GALLERY">
+  <div class="w3-content" style="max-width:900px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+      <div class="w3-content" style="max-width:900px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MY GALLERY</span></h5>
+
+ <p align="center">
+    <img src="w3-image/amieraalisa.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+ <p align="center">
+    <img src="w3-image/amieraalisapiya.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+ <p align="center">
+    <img src="w3-image/dabong.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+ <p align="center">
+    <img src="w3-image/images1.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+ <p align="center">
+    <img src="w3-image/images2.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+ <p align="center">
+    <img src="w3-image/images3.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+ <p align="center">
+    <img src="w3-image/images4.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+ <p align="center">
+    <img src="w3-image/images6.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+<p align="center">
+    <img src="w3-image/images7.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+<p align="center">
+    <img src="w3-image/images8.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+<p align="center">
+    <img src="w3-image/images9.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+<p align="center">
+    <img src="w3-image/isha.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+<p align="center">
+    <img src="w3-image/meandadik.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+<p align="center">
+    <img src="w3-image/marissa.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+<p align="center">
+    <img src="w3-image/myself.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+<p align="center">
+    <img src="w3-image/pantai.jpg" style="width:75%;max-width:500px" class="w3-margin-top">
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

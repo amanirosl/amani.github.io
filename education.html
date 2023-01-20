@@ -1,0 +1,129 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<title>My Education Background</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("w3-image/images.jpg");
+  min-height: 75%;
+
+
+ }
+.BIODATA {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="amani.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="biodata.html" class="w3-button w3-block w3-black">BIODATA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="experience.html" class="w3-button w3-block w3-black">EXPERIENCE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="education.html" class="w3-button w3-block w3-black">EDUCATION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="family.html" class="w3-button w3-block w3-black">FAMILY</a>
+    </div>
+      <div class="w3-col s3">
+      <a href="gallery.html" class="w3-button w3-block w3-black">GALLERY</a>
+          </div>
+      <div class="w3-col s3">
+      <a href="references.html" class="w3-button w3-block w3-black">REFERENCES</a>
+    </div>
+  </div>
+</div>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- Education Container -->
+<div class="w3-container" id="Education">
+  <div class="w3-content" style="max-width:900px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+      <div class="w3-content" style="max-width:900px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MY EDUCATION</span></h5>
+     
+ 
+    <p>Kindergarter : Pasti Al-Hidayah (2008)</p>
+<style>
+.background {
+  background-image: url("w3-image/images5.jpg");
+  background-size: 190px;
+  width: 150px;
+  height: 300px;
+}
+</style>
+
+<div class="background">
+</div>
+
+</div>
+
+    <p>Primary School : Sekolah Kebangsaan Seri Kemudi (2009-2014)</p>
+    <img src="w3-image/skserikemudi.jpg" style="width:100%;max-width:300px" class="w3-margin-top">
+
+       <p>Secondary School : Sekolah Menengah Kebangsaan Bachok (2015-2019)</p>
+    <img src="w3-image/smkb.jpg" style="width:100%;max-width:300px" class="w3-margin-top">
+
+       <p>Tertiary School : Kolej Matrikulasi Perlis (2020-2021)</p>
+    <img src="w3-image/kmp.jpg" style="width:100%;max-width:300px" class="w3-margin-top">
+
+       <p>University : Universiti Teknologi MARA Kelantan Cawangan Kota Bharu (2021-2023)</p>
+    <img src="w3-image/uitmkb.jpg" style="width:100%;max-width:300px" class="w3-margin-top">
+
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>“The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.”</i></p>
+      <p>-Stephen Hawking-</p>
+    </div>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
